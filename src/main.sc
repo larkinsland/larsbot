@@ -10,10 +10,13 @@ theme: /
         intent!: /привет
         a: Привет привет
 
-    state: Bye
-        intent!: /пока
-        a: Пока пока
-
+    state: weather
+        intent!: /weather
+        a: погода
+    state: currency
+        intent: /currency
+        a: курс валют
+    
     state: NoMatch
         event!: noMatch
         a: Я не понял. Вы сказали: {{$request.query}}
