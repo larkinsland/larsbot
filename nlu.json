@@ -22,6 +22,16 @@
     }
   },
   "intents" : [ {
+    "path" : "/currency",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
     "path" : "/пока",
     "enabled" : true,
     "shared" : false,
@@ -33,7 +43,7 @@
     },
     "priority" : 0
   }, {
-    "path" : "/привет",
+    "path" : "/hello",
     "enabled" : true,
     "shared" : false,
     "phrases" : [ {
@@ -42,6 +52,17 @@
     "classificationRules" : {
       "refs" : [ ]
     },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/weather",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
     "priority" : 0
   } ],
   "entities" : [ ],
