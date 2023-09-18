@@ -12,10 +12,10 @@ theme: /
 
     state: weather
         intent!: /weather
-        a: погода
+        a: погода теплая
     state: currency
         intent: /currency
-        a: курс валют
+        a: курс валют нормальный
     
     state: NoMatch
         event!: noMatch
